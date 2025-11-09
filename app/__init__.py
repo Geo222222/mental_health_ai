@@ -1,0 +1,4 @@
+"""
+CalmMind application package.
+"""
+
