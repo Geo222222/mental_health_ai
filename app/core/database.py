@@ -6,8 +6,7 @@ from __future__ import annotations
 from collections.abc import AsyncGenerator
 
 from sqlmodel import SQLModel
-from sqlmodel.ext.asyncio.session import AsyncSession
-from sqlmodel.ext.asyncio.engine import create_async_engine
+from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 
 from .config import get_settings
 
