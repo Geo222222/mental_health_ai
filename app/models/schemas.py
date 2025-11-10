@@ -73,3 +73,15 @@ class GoalRead(BaseModel):
     updated_at: datetime
 
 
+class RiskEventRead(BaseModel):
+    id: int
+    user_id: str
+    source: str
+    content: str
+    risk_level: str
+    risk_score: float
+    sentiment: float
+    keywords: Optional[str]
+    created_at: datetime
+
+

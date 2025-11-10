@@ -11,6 +11,10 @@ from sqlmodel.ext.asyncio.engine import create_async_engine
 
 from .config import get_settings
 
+# Import models so metadata is populated when create_all is executed
+from app.models import journal as _journal_models  # noqa: F401
+from app.models import risk as _risk_models  # noqa: F401
+
 
 settings = get_settings()
 engine = create_async_engine(settings.database_url, echo=False, future=True)
