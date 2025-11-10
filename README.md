@@ -41,6 +41,10 @@ Services
 
 Visit `http://localhost:8000/docs` for interactive API documentation.
 
+## Demo & Docs
+- Interactive CLI demo: `python scripts/demo_cli.py`
+- Additional walkthroughs and sample requests: see [`docs/DEMO.md`](docs/DEMO.md)
+
 ## Roadmap
 - Voice transcription via Whisper + WebRTC streaming
 - Clinician dashboard with mood trend visualizations
